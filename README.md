@@ -5,13 +5,6 @@
 [Pull Request](https://github.com/degisew/hello-rails-backend/pull/1)
 
 
-<div align="center">
-
-
-<h3><b>README</b></h3>
-
-</div>
-
 # 📖Hello-React-front-end <a id="about-project"></a>
 
 >  A simple UI built with React, Redux that is integrated with Rails Backend Application. It fetches data from the rails API and displays it.
