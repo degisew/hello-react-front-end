@@ -1,152 +1,204 @@
-<a id="readme-top"></a>
-=======
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-# A PR for Backend
-[Pull Request](https://github.com/degisew/hello-rails-backend/pull/1)
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<!-- <div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <!-- <img src="https://user-images.githubusercontent.com/86473715/208989298-61c26953-a6ea-4543-9250-465e28dd057a.png" alt="logo" width="140"  height="auto" />
+  <br/> -->
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+    - [🛠 Built With](#built-with)
+        - [Tech Stack](#tech-stack)
+        - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+    - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
 
-# 📖Hello-React-front-end <a id="about-project"></a>
+# Back end rails code repo here
+ [hello-rails-backend PR](https://github.com/degisew/hello-react-front-end/pull/1)
+<!-- PROJECT DESCRIPTION -->
 
->  A simple UI built with React, Redux that is integrated with Rails Backend Application. It fetches data from the rails API and displays it.
+# 📖 Rails-React <a name="about-project"></a>
+**hello-react-front-end** is a simple project that is aimed to practice configuring rails API.
 
-## 🛠 Built With <a id="built-with"></a>
+## 🛠 Built With <a name="built-with"></a>
+- React
 
-### Tech Stack <a id="tech-stack"></a>
-
-> To build this project we used a tech stack detailed below:
+### Tech Stack <a name="tech-stack"></a>
+- React
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://redux.js.org/">Redux</a></li>
+    <li><a href="https://reactjs.org">React</a></li>
   </ul>
 </details>
 
+
 <!-- Features -->
+### Key Features <a name="key-features"></a>
 
-### Key Features <a id="key-features"></a>
-
-- **Fetch data from The rails API and display it **
+- **Fetch data from rails API and displays it on the UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a id="live-demo"></a>
-
-- Not Available!
-
+## 🚀 Live Demo <a name="live-demo"></a>
+Not Available yet!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a id="getting-started"></a>
-
+## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- To install [Node.js](https://nodejs.org/en/) on your computer.
+- You should be having [NodeJs](https://nodejs.org/en/) installed on your computer
+- Nodejs Installed on your computer
+-
 
 ### Setup
 
-Clone this repository to your desired folder:
+To get a local copy up and running follow these simple example steps.
 
 1. Navigate to a folder where you want the cloned file to appear
 
 2. Clone this repo in your terminal or git bash using the command
+```sh
+  cd hello-react-front-end
+  git clone https://github.com/degisew/hello-react-front-end.git
+```
 
-   ```
-     git clone <URL> 'https://github.com/degisew/hello-react-front-end' in your terminal
-      
-   ```
+3. run the following command to install all the necessary dependencies including the linters
 
-### Install
+ ```sh
+  cd hello-react-front-end
+  npm install
+``` 
 
-Install this project with:
-
-run `npm install ` to install all the necessary dependencies including the linters
-
---->
-
+4. Navigate to the folder called hello-rails-backend/ and open this project using your editor
 ### Usage
 
 To run the project, execute the following command:
 
-### `npm start`
-- This will run the react app in your browser
+```sh
+  cd hello-react-front-end
+  npm start
+ ```
+- This will start the rails server in your browser
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### Run tests
 
 To run tests, run the following command:
 
-### `npm run test`
---->
 
+```sh
+  npm test
+```
 ### Deployment
 
 You can deploy this project using:
 
-- [Netlify](https://app.netlify.com), or
-- [Vercel](https://vercel.com/).
+- Netlify
+- Github pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a id="authors"></a>
-
-> This project was built by two Developers:
+## 👥 Authors <a name="authors"></a>
 
 👤 **Degisew**
-- GitHub: [degisew](https://github.com/degisew)
-- Twitter: [@DJ_etiya](https://twitter.com/Degisew-mengist)
-- LinkedIn: [degisew](https://www.linkedin.com/in/degisew-mengist)
+
+- GitHub: [@degisew](https://github.com/degisew)
+- Twitter: [@Dj_etiya](https://twitter.com/DJ_etiya)
+- LinkedIn: [Degisew](https://linkedin.com/in/degisew-mengist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Will work on the full functionality
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a id="contributing"></a>
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/degisew/hello-react-front-end/issues/new).
+Feel free to check the [issues page](https://github.com/degisew/hello-react-front-end/issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a id="support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
-> Give a ⭐ if you like this project!
+If you like this project give a ⭐️ to repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a id="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Thanks to Microverse and my Coding Partners
+- I would like to thank the Microverse team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 <!-- LICENSE -->
 
-## 📝 License <a id="license"></a>
+## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/degisew/hello-react-front-end/blob/dev/license) licensed.
+This project is [MIT](https://github.com/degisew/hello-react-front-end/blob/dev/LICENSE) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
