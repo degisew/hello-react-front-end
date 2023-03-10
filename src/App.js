@@ -4,7 +4,7 @@ import { Greeting } from './components/Greeting';
 
 const App = () => (
   <>
-    <h1>Rails with React</h1>
+    <h1>Rails API with Reactjs</h1>
     <Routes>
       <Route path="/" element={<Greeting />} />
     </Routes>
