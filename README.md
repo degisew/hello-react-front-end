@@ -7,16 +7,14 @@
 
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/108806646/203941212-a33b97da-6d84-4649-b763-4e8191c24805.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
 <h3><b>README</b></h3>
 
 </div>
 
-# 📖 Space Travelers' Hub <a id="about-project"></a>
+# 📖Hello-React-front-end <a id="about-project"></a>
 
->  A simple UI built with React, Redux.
+>  A simple UI built with React, Redux that is integrated with Rails Backend Application. It fetches data from the rails API and displays it.
 
 ## 🛠 Built With <a id="built-with"></a>
 
